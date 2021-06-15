@@ -1,0 +1,66 @@
+.header{
+    text-align: center;
+    background: #E6E6E6;
+}
+
+h1{
+    text-align: center;
+    font-size: 35px;
+    line-height: 29.64px;
+    font-weight: bold;
+    font-feature-settings: 'cpsp' on;
+    font-family: Times 'Times New Roman', Times, serif;
+}
+
+h1,h2{
+    color: #005677;
+    background: #C4C4C4;
+    margin-top: 30px;
+    font-size:20px ;
+    font-family: Times 'Times New Roman', Times, serif;
+    
+}
+
+#footer{
+    background: #005677;
+    text-align: center;
+    color: white;
+    font-family: Times 'Times New Roman', Times, serif ;
+    font-size:20px ;
+    line-height: 16.94px;
+    height: 37px;
+    padding-top: 7px;
+
+
+
+}
+
+.catInfo {
+    font-weight:bold;
+    font-style: italic;
+
+}
+
+.año{
+    font-weight:bold;
+}
+
+#seccionDatos{
+    margin-top: 100px;
+    margin-left: 225px;
+    margin-right: 225px;
+    margin-bottom: 225px;
+}
+
+.infoAdicional {
+    padding-left: 80px;
+    line-height: 1px;
+    margin-top: 10px;
+}
+
+#instagram{
+    padding-left:30px;
+}
+#linkedin{
+    padding-left:30px;
+}
