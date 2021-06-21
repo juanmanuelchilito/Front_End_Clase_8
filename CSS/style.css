@@ -1,7 +1,55 @@
-.header{
-    text-align: center;
-    background: #E6E6E6;
+
+body {
+    font-family: 'Poppins', sans-serif;
 }
+
+.header{
+    width: 100vw;
+    height: 12vw;
+    display: flex; 
+    justify-content: center;  
+    align-items: flex-end;  
+    background-image: url("../img/fondo.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;     
+    background-attachment: scroll;  
+    background-position-y: center;
+    border-radius: 10%;
+  
+}
+
+.menu{   
+    display: flex;
+    font-weight: bold;  
+    
+}
+
+
+
+p { 
+    Text-align: justify;
+}
+
+#foto{
+    
+    align-self: center;
+    border-radius: 20%;
+    width:10vw;   
+  }
+
+
+
+
+a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    line-height: 30px;
+    font-family: sans-serif;
+    margin-right: 40px;
+  }
+
+
 
 h1{
     text-align: center;
@@ -16,9 +64,7 @@ h1,h2{
     color: #005677;
     background: #C4C4C4;
     margin-top: 30px;
-    font-size:20px ;
-    font-family: Times 'Times New Roman', Times, serif;
-    
+    font-size:20px ;    
 }
 
 #footer{
@@ -30,31 +76,47 @@ h1,h2{
     line-height: 16.94px;
     height: 37px;
     padding-top: 7px;
-
-
-
 }
 
-.catInfo {
-    font-weight:bold;
-    font-style: italic;
-
-}
 
 .año{
     font-weight:bold;
 }
 
-#seccionDatos{
-    margin-top: 100px;
-    margin-left: 225px;
-    margin-right: 225px;
-    margin-bottom: 225px;
+.seccionDatos{
+    display: flex;
+    flex-direction: column;
+    margin: 60px
+
 }
 
-.infoAdicional {
-    padding-left: 80px;
-    margin-top: 1px;
+.education{
+    display: flex;   
+    align-items:center;
+    justify-content: flex-start;
+  
+}
+
+.año{
+    font-weight: bold; 
+    
+}
+
+
+.textoEducation{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    
+}
+
+.textoEducation > div{
+    margin: 2px;
+}
+
+
+.año > p{
+    margin: 70px
 }
 
 #instagram{
@@ -62,4 +124,9 @@ h1,h2{
 }
 #linkedin{
     padding-left:30px;
+}
+
+.catInfo{
+    font-weight: bold;
+    margin-right: 30px;
 }
